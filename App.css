@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(188, 184, 184); */
+}
+div {
+  /* margin: 100px; */
+  /* background-color: black; */
+  text-align: center;
+  flex: content;
+  justify-content: space-between;
+}
+span {
+  font-size: 30px;
+  padding: 2px;
+  margin: 20px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(29, 28, 26);
+}
+button {
+  /* width: 200px; */
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  color: aliceblue;
+  border: 3px solid rgb(175, 247, 51);
+  border-radius: 8px;
+  background: black;
+}
+:hover btn1 {
+  /* text-shadow: 0 0 30px red; */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+:hover btn2 {
+  /* text-shadow: 0 0 30px red; */
+  box-shadow: 0 8px 16px 0 rgba(188, 41, 41, 0.24),
+    0 17px 50px 0 rgba(57, 55, 61, 0.778);
+}
